@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@200;300;400&family=Open+Sans&family=Playfair+Display:ital,wght@1,600&family=Roboto+Mono:wght@300;400&family=Roboto+Slab:wght@500&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.optr {
+    color: greenyellow
+}
+
+.bgred {
+    /*   background-color: red; */
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.cen {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.acen {
+    text-align: center;
+}
+
+button {
+    border-radius: 50%;
+    font-size: 23px;
+    color: white;
+    font-weight: 800;
+    background:transparent;
+    font-family: 'Dosis', sans-serif;
+    width: 50px;
+    height: 50px;
+    margin: 3px 3px;
+    border: 3px solid black;
+    cursor: pointer;
+    border: none;
+    box-shadow: -8px -8px 15px rgba(248, 250, 255, 0.1);
+}
+.widthd{
+    width: 100px;
+}
+
+.container {
+    margin: 20px 0px;
+    padding: 30px 0px;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 00px 3px 15px rgba(113, 115, 119);
+    width: 300px;
+    border: 1px solid gray;
+}
+
+button:active {
+    color: black;
+    background-color: yellow;
+    font-size: 15px;
+}
+
+input {
+    border: none;
+    text-align: right;
+    box-shadow: 00px 3px 15px rgba(84, 84, 84, 0.1);
+    background: transparent;
+    color: white;
+    letter-spacing: 0.05cm;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: 'Dosis', sans-serif;
+    width: 250px;
+    height: 50px;
+    margin: 4px 4px;
+    
+}
+
+body {
+    background: linear-gradient(45deg, black, gray);
+}
+
+h1 {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
